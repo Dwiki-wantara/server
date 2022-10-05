@@ -119,7 +119,7 @@ func (h *handlerTransaction) CreateTransaction(w http.ResponseWriter, r *http.Re
 		DueDate:   dueDate,
 		UserID:    userId,
 		Price:     75000,
-		Status:    "pending",
+		Status:    "success",
 	}
 
 	// err := mysql.DB.Create(&transaction).Error
